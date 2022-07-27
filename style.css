@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", monospace;
+}
+
+:root{
+    --btn-clr: #5955B3;
+}
+.container{
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+/* Navbar */
+
+.navbar-container{
+    max-width: 80vw;
+    margin: 2.5em 0;
+    height: 1em;
+}
+.list{
+    float: left;
+    list-style: none;
+    color: #C7C7C7;
+    width: 70%;
+}
+.list-item{
+    float: left;
+    margin-left: 2em;
+}
+
+.list-item:hover{
+    color: #000;
+    cursor: pointer;
+}
+
+.grow-list{
+    width: 60%;
+    float: left;
+    margin-left: 1em;
+    margin-top: .4em;
+}
+img[alt="brand-logo"]{
+    width: 8em;
+    float: left;
+}
+.nav-button{
+    color: white;
+    background-color: #5955B3;
+    padding: .7em 1.4em;
+    border-radius: 8px;
+    border: 0;
+    float: left;
+    cursor: pointer;
+}
+
+/* Hero section */
+
+.banner-container{
+    width: 40%;
+    text-align: center;
+    margin-top: 8em;
+    
+}
+
+img[alt="illustration"]{
+    width: 45em;
+    height: 25em;
+    position: absolute;
+    right: 2px;
+    bottom: 100px;
+    float: right;
+}
+.heading-text{
+    font-size: 3.8rem;
+    color: #3C2F60;
+    width: 100%;
+    line-height: 1.2;
+}
+span{
+    color: #5955B3;
+}
+
+
+.description{
+    color: #828282;
+    width: 95%;
+    padding: 2em 0;
+    font-size: .8rem;
+}
+
+.btn{
+    margin: 2em 1em;
+    padding: 1em 3em;
+}
